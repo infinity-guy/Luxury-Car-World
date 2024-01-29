@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxury Cars | Your Dream Awaits</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="navigation">
+        <a href="./index.html" class="logo">
+          <img src="lux-car-logo.png" alt="Luxury Cars Logo" style="height: 3rem;">
+        </a>
+        <ul>
+          <li><a href="#featured-cars">Discover</a></li>
+          <li><a href="#">Cart</a></li>
+          <li><a href="#socialmedia">Contact Us</a></li>
+          <li><a href="login.html">My Account</a></li>
+          <li><a href="#search"><i class="fa fa-search"></i> Search</a></li> </ul>
+      </nav>
+      
+    <div class="hero-content">
+      <h1>Experience the thrill, own the dream.</h1>
+      <br>
+      <br>
+      <a href="#featured-cars" class="cta-button">Explore Now</a>
+    </div>
+    
+  </header>
+
+
+  <section id="featured-cars" class="featured-cars">
+    <h2>Discover your perfect Ride</h2>
+    <div class="car-grid">
+      <a href="#">
+        <figure class="car-card" id="car1">
+          <img src="bmw-m5c.jpg" alt="Car 1">
+          <figcaption>BMW M5 Competition</figcaption>
+          <p>Starting at $120,000</p>
+          <button class="cta-button">Learn More</button>
+        </figure>
+
+        <figure class="car-card" id="car2">
+            <img src="bmw-m4c.jpg" alt="Car 1" >
+            <figcaption>BMW M4 Competition</figcaption>
+            <p>Starting at $100,000</p>
+            <button class="cta-button">Learn More</button>
+          </figure>
+      </a>
+      </div>
+  </section>
+
+  <!-- <section id="search" class="search-section">
+    <h2>Find Your Dream Ride</h2>
+    <form action="#">
+      <div class="search-field">
+        <label for="make">Make:</label>
+        <input type="text" name="make" id="make">
+      </div>
+      <div class="search-field">
+        <label for="model">Model:</label>
+        <input type="text" name="model" id="model">
+      </div>
+      <div class="search-field">
+        <label for="price">Price Range:</label>
+        <select name="price" id="price">
+          <option value="">Any</option>
+          <option value="under-50k">Under $50,000</option>
+          <option value="50k-100k">$50,000 - $100,000</option>
+          <option value="over-100k">Over $100,000</option>
+        </select>
+      </div>
+      <button type="submit" class="cta-button">Search Inventory</button>
+    </form>
+  </section> -->
+  <div id="search" class="searchclass">
+    <section class="search-section">
+      <div class="search-container">
+        <h2>Find Your Dream Ride</h2>
+        <form action="#" class="search-form">
+          <div class="search-field">
+            <label for="make">Make:</label>
+            <input type="text" name="make" id="make" placeholder="e.g., Mercedes-Benz, Porsche">
+          </div>
+          <div class="search-field">
+            <label for="model">Model:</label>
+            <input type="text" name="model" id="model" placeholder="e.g., 911, G-Class">
+          </div>
+          <div class="search-field">
+            <label for="price">Price Range:</label>
+            <select name="price" id="price">
+              <option value="">Any</option>
+              <option value="under-50k">Under $50,000</option>
+              <option value="50k-100k">$50,000 - $100,000</option>
+              <option value="over-100k">Over $100,000</option>
+            </select>
+          </div>
+          <button type="submit" class="cta-button">Search Inventory</button>
+        </form>
+      </div>
+    </section>
+  </div>
+  
+
+  <!-- <section class="cta">
+    <h2>Own the Road</h2>
+    <p>Experience the thrill firsthand.</p>
+    <a href="contact.html" class="cta-button">Book Your Test Drive</a>
+    <img src="images/test-drive-car.jpg" alt="Test Drive Car" class="cta-image">
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Luxury Cars. All rights reserved.</p>
+    <ul class="social-media">
+      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+    </ul>
+  </footer> -->
+  <section class="cta">
+    <div class="cta-container">
+      <div class="cta-content">
+        <h2>Experience the Ultimate Driving Pleasure</h2>
+        <p>Feel the power of luxury at your fingertips.</p>
+        <a href="contact.html" class="cta-button">Book Your Test Drive</a>
+      </div>
+      <div class="cta-image-container">
+        <img src="./carbrands-removebg.png" alt="Test Drive Car" class="cta-image">
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2023 Luxury Cars. All rights reserved.</p>
+      <ul id="socialmedia" class="social-media">
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>

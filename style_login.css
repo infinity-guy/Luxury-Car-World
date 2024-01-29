@@ -1,0 +1,151 @@
+*{
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  }
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+  }
+  
+
+  .navigation {
+    background-color: black;
+    width: 100%;
+    color: white;
+    left: -10px;
+    padding: 10px;
+
+    /* padding: 5px 0; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    
+  }
+  
+  .logo {
+    margin-top: 70px;
+    margin-right: 20px;
+    padding: 0;
+  }
+  
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  form {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 92%;
+    padding: 10px;
+    /* padding-left: 10px;
+    /* padding-right: px; */
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .social-login {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .social-login h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  .social-login i {
+    font-size: 1.8em;
+    color: #fff;
+  }
+  
+  .social-button {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #33475B; /* Adjust color based on desired theme */
+  }
+
+  
+  i.fas, i.fab {
+    font-size: 1.5em;
+  }
+  
+  
+    #toggle-password {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        color: #ddd;
+      }
+      
+      .form-group input[type="password"]:focus + #toggle-password {
+        color: #007BFF;
+      }
+      
+      #toggle-password.active {
+        color: #007BFF;
+      }
+
+.thisthat{
+  padding: 100px;
+}
